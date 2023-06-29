@@ -1,0 +1,56 @@
+name: dockercompose7562529359473360947
+services:
+  catalog.api:
+    build:
+      context: C:\Users\kania\source\repos\AspMicroservice\src
+      dockerfile: Services/Catalog/Catalog.API/Dockerfile
+    container_name: catalogAPI
+    depends_on:
+      catalogDB:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:80
+      DatabaseSettings__ConnectionString:mongodb://catalogDB:27017: null
+    image: catalogapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\kania\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\kania\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+  catalogDB:
+    container_name: catalogDB
+    image: mongo
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 27017
+      published: "27017"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: volume
+      source: mongo_data
+      target: /data/db
+      volume: {}
+networks:
+  default:
+    name: dockercompose7562529359473360947_default
+volumes:
+  mongo_data:
+    name: dockercompose7562529359473360947_mongo_data
