@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eifX93g+dIxeOjH13EF3sV8jbCPim3fv6vlMphI+DEsfu1EawAzEtLrZlchrYM5ovhX4PSBXTW76xuhMU43rQQ==",
+  "dgSpecHash": "L0fTmky0PA5x9kPRGd1YkDipGk+vk8Q2z/KJw0edu1+VcM2x5zHWsTQ7MFKXryDyCHrpXU97enS69j2dK6Tyuw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kania\\source\\repos\\AspMicroservice\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
+  "projectFilePath": "C:\\Users\\kania\\Source\\Repos\\AspMicroservice\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kania\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\kania\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

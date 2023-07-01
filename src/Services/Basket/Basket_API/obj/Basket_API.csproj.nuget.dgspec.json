@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kania\\source\\repos\\AspMicroservice\\src\\Services\\Basket\\Basket_API\\Basket_API.csproj": {}
+    "C:\\Users\\kania\\Source\\Repos\\AspMicroservice\\src\\Services\\Basket\\Basket_API\\Basket_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kania\\source\\repos\\AspMicroservice\\src\\Services\\Basket\\Basket_API\\Basket_API.csproj": {
+    "C:\\Users\\kania\\Source\\Repos\\AspMicroservice\\src\\Services\\Basket\\Basket_API\\Basket_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kania\\source\\repos\\AspMicroservice\\src\\Services\\Basket\\Basket_API\\Basket_API.csproj",
+        "projectUniqueName": "C:\\Users\\kania\\Source\\Repos\\AspMicroservice\\src\\Services\\Basket\\Basket_API\\Basket_API.csproj",
         "projectName": "Basket_API",
-        "projectPath": "C:\\Users\\kania\\source\\repos\\AspMicroservice\\src\\Services\\Basket\\Basket_API\\Basket_API.csproj",
+        "projectPath": "C:\\Users\\kania\\Source\\Repos\\AspMicroservice\\src\\Services\\Basket\\Basket_API\\Basket_API.csproj",
         "packagesPath": "C:\\Users\\kania\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kania\\source\\repos\\AspMicroservice\\src\\Services\\Basket\\Basket_API\\obj\\",
+        "outputPath": "C:\\Users\\kania\\Source\\Repos\\AspMicroservice\\src\\Services\\Basket\\Basket_API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,9 +49,17 @@
               "target": "Package",
               "version": "[7.0.7, )"
             },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.18.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

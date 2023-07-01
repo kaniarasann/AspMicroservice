@@ -1,12 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\src",
-    "\\src\\Services",
-    "\\src\\Services\\Basket",
-    "\\src\\Services\\Catalog",
-    "\\src\\Services\\Catalog\\Catalog.API"
+    ""
   ],
-  "SelectedNode": "\\src\\obj",
+  "SelectedNode": "\\AspMicroService.sln",
   "PreviewInSolutionExplorer": false
 }

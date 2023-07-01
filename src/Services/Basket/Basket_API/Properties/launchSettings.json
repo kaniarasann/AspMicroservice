@@ -18,6 +18,16 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
+    "Basket_API": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5001"
+    },
     "Docker": {
       "commandName": "Docker",
       "launchBrowser": true,
